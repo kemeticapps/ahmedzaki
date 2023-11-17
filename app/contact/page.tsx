@@ -19,7 +19,7 @@ const socials = [
 	},
 	{
 		icon: <LayoutPanelLeft size={20} />,
-		href: "be.net/axzaki",
+		href: "https://be.net/axzaki",
 		label: "Behance",
 		handle: "@axzaki",
 	},
