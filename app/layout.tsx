@@ -9,7 +9,7 @@ export const metadata: Metadata = {
     default: "Ahmed Zaki",
     template: "%s | chronark.com",
   },
-  description: "Co-founder of unkey.dev and founder of planetfall.io",
+  description: "CEO & Founder at Kemetic | E-commerce Specialist",
   openGraph: {
     title: "Ahmed Zaki",
     description:
