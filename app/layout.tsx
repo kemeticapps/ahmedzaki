@@ -11,14 +11,14 @@ export const metadata: Metadata = {
   },
   description: "Co-founder of unkey.dev and founder of planetfall.io",
   openGraph: {
-    title: "chronark.com",
+    title: "Ahmed Zaki",
     description:
-      "Co-founder of unkey.dev and founder of planetfall.io",
-    url: "https://chronark.com",
-    siteName: "chronark.com",
+      "CEO & Founder at Kemetic | E-commerce Specialist",
+    url: "https://ahmedzaki.vercel.app",
+    siteName: "CEO & Founder at Kemetic | E-commerce Specialist",
     images: [
       {
-        url: "https://chronark.com/og.png",
+        url: "https://ahmedzaki.vercel.app/og.png",
         width: 1920,
         height: 1080,
       },
