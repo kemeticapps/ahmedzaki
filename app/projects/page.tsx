@@ -26,9 +26,6 @@ export default async function ProjectsPage() {
     .filter((p) => p.published)
     .filter(
       (project) =>
-        project.slug !== featured.slug &&
-        project.slug !== top2.slug &&
-        project.slug !== top3.slug,
     )
     .sort(
       (a, b) =>
