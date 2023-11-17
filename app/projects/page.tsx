@@ -63,15 +63,7 @@ export default async function ProjectsPage() {
                 </Card>
               ))}
           </div>
-          <div className="grid grid-cols-1 gap-4">
-            {sorted
-              .filter((_, i) => i % 3 === 2)
-              .map((project) => (
-                <Card key={project.slug}>
-                  <Article project={project} views={views[project.slug] ?? 0} />
-                </Card>
-              ))}
-          </div>
+
           
         </div>
       </div>
