@@ -1,7 +1,7 @@
 import Link from "next/link";
 import React from "react";
 import Particles from "./components/particles";
-import { ArrowLeft } from "lucide-react";
+import { ArrowRight } from "lucide-react";
 
 const navigation = [
   { name: "Contact", href: "/contact" },
@@ -19,7 +19,7 @@ export default function Home() {
               className="text-sm duration-500 text-zinc-500 hover:text-zinc-300"
             >
               {item.name}
-              <ArrowLeft className="w-6 h-6 " />
+              <ArrowRight className="w-6 h-6 " />
             </Link>
           ))}
         </ul>
