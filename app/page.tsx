@@ -1,7 +1,7 @@
 import Link from "next/link";
 import React from "react";
 import Particles from "./components/particles";
-import { ArrowRight } from "lucide-react";
+import { ArrowLeft } from "lucide-react";
 
 const navigation = [
   { name: "Contact", href: "/contact" },
